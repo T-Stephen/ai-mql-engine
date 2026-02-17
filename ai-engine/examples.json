@@ -1,0 +1,18 @@
+[
+  {
+    "input": "Show all users from Chennai",
+    "output": "db.users.find({ city: \"Chennai\" })"
+  },
+  {
+    "input": "Count total orders",
+    "output": "db.orders.countDocuments({})"
+  },
+  {
+    "input": "Show total sales in January",
+    "output": "db.sales.aggregate([{ $match: { month: \"January\" } }, { $group: { _id: null, total: { $sum: \"$amount\" } } }])"
+  },
+  {
+    "input": "Show all products cheaper than 1000",
+    "output": "db.products.find({ price: { $lt: 1000 } })"
+  }
+]
