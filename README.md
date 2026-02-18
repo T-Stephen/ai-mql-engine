@@ -1,12 +1,25 @@
-## AI/ML & DevOps Module
+# AI MQL Engine
 
-Developed by: T. Stephen Raj
+AI-powered module that converts natural language into MongoDB Query Language (MQL).
 
-This module converts natural language queries into MongoDB Query Language (MQL) using AI.
+## Developed By
+T. Stephen Raj – AI/ML & DevOps
 
-Key Features:
-- Prompt engineering for accurate query generation
+## Features
+- Prompt Engineering for structured MQL generation
 - Few-shot learning examples
-- Query validation for safety
+- Query validation layer for security
 - AI query generation pipeline
-- Integration-ready architecture
+- Backend integration ready
+
+## Architecture
+
+User Input
+   ↓
+AI Prompt Engine
+   ↓
+Gemini AI
+   ↓
+Query Validation
+   ↓
+Safe MQL Output
