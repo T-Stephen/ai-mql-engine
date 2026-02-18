@@ -1,3 +1,5 @@
+// Test script for validating AI query validation logic.
+// Used only for development testing.
 import { systemPrompt } from "./systemPrompt.js";
 import { validateQuery } from "./queryValidator.js";
 
